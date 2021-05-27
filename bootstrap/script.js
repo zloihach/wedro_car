@@ -138,7 +138,6 @@ function displayCart() {
       + "<td>(" + cartArray[i].price + ")</td>"
       + "<td><div class='input-group'>"
       + "<input type='number' class='item-count form-control' data-name='" + cartArray[i].name + "' value='" + cartArray[i].count + "'>"
-      + "🤑" 
       + "<td>" + cartArray[i].total + "</td>" 
       +  "</tr>";
   }
