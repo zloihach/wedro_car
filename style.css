@@ -1,5 +1,16 @@
+html, body {
+  height: 100%;
+}
 body {
-  padding-top: 80px;
+  background: linear-gradient(180deg, rgb(240, 242, 241), rgb(251, 213, 177));
+  padding:10px 10px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.container{
+  padding-top:10px;
 }
 
 .show-cart li {
@@ -16,14 +27,23 @@ body {
 .btn-warning{
   margin-right: 15px;
 }
-.container{
-  margin-top: 40px;
-}
-.navbar{
- background: linear-gradient(45deg, #37ecba, #72afd3);
-}
-.container{
-}
+
 .add-to-cart{
-  background: linear-gradient(45deg, #37ecba, #72afd3);
+  background: linear-gradient(45deg, #00c6fb, #005bea);
+}
+
+.navbar {
+  background-color:rgb(240, 242, 241);
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: .5rem 1rem;
+}
+.btn-info{
+  background: rgb(53, 103, 243);
+}
+.btn-danger{
+  background:rgb(255, 28, 115)
 }
